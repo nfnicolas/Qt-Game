@@ -1,12 +1,14 @@
 
 #include"game.h"
 #include"enemy.h"
+#include<QImage>
 
 Game::Game(QWidget *parent)
 {
     //create scene
-    scene=new QGraphicsScene(0,0,1000,800);
-    scene->addRect(scene->sceneRect());
+    scene=new QGraphicsScene();
+     scene->setSceneRect(0,0,1000,800);
+    scene->setBackgroundBrush(QBrush(QImage(":/image/Parket.jpg")));
 
 
     QGraphicsView*view=new QGraphicsView(this);
