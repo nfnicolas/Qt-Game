@@ -1,3 +1,3 @@
 # Qt-Game
 
-I study the graphics and tried to create a game as an example. It is only frame!!! 
+I study the graphics and tried to create a game as an example. It is only frame!!! (Figure move and shoot other figurs) 
